@@ -1,0 +1,14 @@
+{
+  "name": "MMY-smartcontract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mummy-io/MMY-smartcontract.git",
+  "author": "Shi",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "1.2.3",
+    "dotenv": "^10.0.0",
+    "truffle-plugin-verify": "^0.5.15"
+  }
+}
