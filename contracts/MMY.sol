@@ -16,6 +16,6 @@ contract MMY is Ownable, ERC20 {
     }
 
     function burn(uint256 _amount) external onlyOwner {
-        _burn(_msgSender(), amount);
+        _burn(_msgSender(), _amount);
     }
 }
